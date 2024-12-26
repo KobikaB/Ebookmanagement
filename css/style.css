@@ -1,0 +1,136 @@
+html,body{
+margin: 0;
+padding: 0;	
+}
+
+body{
+	font: 99% calibri,sans-serif;
+	text-align: center;
+}
+
+div#header{
+	background-color:#F3F2ED ;
+}
+
+div#header h1{
+	height: 80px;
+    /*	line-height: 80 px; height,line h if we give sme value automatically go to the center possition*/
+    margin: 0;
+    padding-left: 20px;
+
+}
+
+div#container {
+height: auto;
+width: 700px;	
+margin: 0 auto;
+}
+
+div#wrapper{
+	float: right;
+	width:500px ;
+}
+
+div#wrapper P{
+	line-height: 1.5;
+	text-align: justify;
+}
+
+div#navi{
+	float: left;
+	height:1400px ;
+	width:200px;
+	background-color: #F6F0E0;
+
+
+	
+}
+
+div#navi ul{
+	margin-left: 10px;
+	list-style-type: square;
+}
+
+
+div#navi li{
+	margin-bottom: 5px;
+}
+
+div#footer{
+	clear: both;
+	width: 100%;
+	background-color: #BFBD93 !important;
+}
+
+	div#footer p{
+		margin: 0;
+		padding: 5px 10px;
+	}
+
+	a {
+		padding: 10px;
+		text-decoration: none;
+		color: black;
+
+	}
+
+	a:hover{
+		color: blue;
+	}
+
+
+
+
+	p{
+		margin: 0 10px 10px;
+	}
+
+	#heading{
+		text-align: center;
+	}
+
+	#center{
+		height: auto;
+		width: 300px;
+		margin-left: 100PX;
+		
+	}
+
+
+	label,input,button,select,textarea{
+		text-align: left;
+		display: block;
+		margin-bottom:5PX;
+		margin-top: 5PX;
+	}
+
+	input,select,textarea{
+		width: 100%;
+
+	}
+
+	.error{
+		color: red;
+		text-align: center;
+	}
+
+	.success{
+		color: green;
+		text-align: center;
+	}
+
+
+	.record{
+		list-style-type: square;
+	}
+
+	.record li{
+		margin-top: 15px;
+	}
+
+table td,table th{
+border: 1px solid ;
+padding: 5px;
+border-collapse: collapse;
+text-align: center;
+}	
